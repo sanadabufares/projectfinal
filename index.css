@@ -1,0 +1,469 @@
+
+/* body header main footer sections cascading */
+*{
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(../images/phoneBook.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 1rem;
+}
+
+header{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(53, 171, 171, 0);
+    width: 80%;
+    border-radius: 2rem;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1{
+
+    background: radial-gradient(rgb(152, 86, 10), rgb(222,184,135));
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    min-height: 60vh;
+}
+
+.contactsSecCla{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    min-height: 50vh;
+}
+
+
+footer{
+
+    background-color: burlywood;
+    width: 80%;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 1rem;
+    bottom: 0;
+
+}
+
+/* search section */
+.search{
+
+    width: 50%;
+    top: 0;
+}
+
+.searchsec{
+
+    width: 20rem;
+    max-width: 100%;
+}
+
+.search{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.search::placeholder{
+
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*contacts section*/
+.user{
+
+    display: flex;
+    background-image: linear-gradient(rgba(141, 88, 24, 0.5), rgba(190, 175, 117, 0.5)),
+    url(../images/woodenback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    align-items: center;
+    
+}
+
+.userColor{
+    display: flex;
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: linear-gradient(rgba(154, 110, 28, 0.822), rgba(194, 148, 48, 0.5)), url(../images/woodenback.jpg);
+    font-size: 1.5rem;
+}
+
+.userColor img,.user img{
+
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+
+}
+
+.userColor p, .user p{
+
+    font-size: 1.5rem;
+
+}
+
+/* user buttons */
+.remove_btn, .info_btn, .editBtn{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    height: 20px;
+    border: none;
+
+}
+
+.remove_btn{
+
+    
+    background-image: url(../images/remove.png);
+}
+
+.editBtn{
+
+    background-image: url(../images/edit.png);
+    
+
+}
+
+.info_btn{
+
+    background-image: url(../images/info.png);
+    
+}
+
+.addPeople{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    flex-direction: column;
+    background-color: rgba(212, 159, 62, 0.9);
+    margin-bottom: 6rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    max-height: 100%;
+    position: relative;
+    
+}
+
+.form_parent{
+    margin-top: 0;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: rgba(214, 175, 116, 0.902);
+    margin-bottom: 6rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    position: fixed;
+    max-height: 100%;
+}
+
+.title_form{
+
+    background-color: rgba(212, 159, 62, 0.9);
+    padding: 0.3rem;
+    border-radius: 1rem;
+}
+
+input{
+    
+    border-radius: 1rem;
+    width: 80%;
+
+}
+
+.btnClose img{
+
+    width: 20px;
+
+}
+
+.infoDocs{
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:  column;
+    background-color: rgba(199, 148, 45, 0.699);
+    border-radius: 1rem;
+    padding: 1rem;
+    
+}
+
+.exist_btn{
+
+    width: 1rem;
+    height: 1rem;
+    background-image: url(../images/exit.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.infoParent{
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:  column;
+    position: fixed;
+    background-color: rgba(214, 175, 116, 0.902);
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 30px 10px #FFFFFF;
+    margin-top: 0;
+    top: 0px;
+}
+
+.info_btn{
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/info.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0);
+    border: none;
+}
+
+.infoDocs p{
+    text-align: center;
+    background-color: white;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+    padding: 0.3rem;
+
+}
+
+
+.empty{
+
+    background-color: rgba(211, 165, 79, 0.751);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.hm{
+    background-image: url(../images/menu2.png);
+    width: 1rem;
+    height: 1rem;
+    background-color: rgba(255, 235, 204, 0.2);
+    border: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.hm:hover{
+    transition: 0.5s ease;
+    border-radius: 1rem;
+    background-color: rgba(255, 235, 204, 0.7);
+
+}
+
+header section button{
+
+    background-color: blanchedalmond;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    border: none;
+
+}
+
+.empty{
+
+    display: none;
+
+}
+
+/* controling the media */
+@media only screen and (max-width: 600px) {
+    header{
+        font-size: 0.3rem;
+    }
+
+    .infoDocs{
+        overflow: scroll;
+    }
+
+    .addPeople{
+
+        overflow: scroll;
+    }
+
+    img{
+
+        border-radius: 1rem;
+        width: 2rem;
+        height: 2rem;
+
+    }
+    header section{
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    header section button{
+
+        margin-bottom: 1rem;
+
+    }
+    header section .hm{
+
+        display: flex;
+
+
+   }
+    .user p , .userColor p {
+        font-size: 0.5rem; 
+    }
+    .user, .userColor{
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+    footer{
+
+        font-size: 0.3rem;
+        padding: 0rem;
+
+    }
+    
+    main{
+        display: flex;
+    }
+  }
+    
+
+   @media only screen and (min-width: 600px) {
+
+    header .hm{
+
+        display: none;
+
+    }
+    header section{
+
+        display: flex !important;
+
+    }
+   }
+
+.animateTrickSt{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    width: 5rem;
+    height: 5rem;
+    animation: 1s infinite linear;
+    animation-name: trick;
+    padding: 1rem;
+    top: 0;
+    bottom: 0;
+    right: 0;
+
+}
+
+.animateTrickSt2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    width: 5rem;
+    height: 5rem;
+    animation: 1s infinite linear;
+    animation-name: trick;
+    padding: 1rem;
+    top: 0;
+    left: 0;
+
+}
+
+@keyframes trick {
+    from{
+
+        background-color: rgb(245, 136, 12);
+        border-radius: 10% 87% 100% 78% / 86% 76% 100% 100%;
+
+    }50%{background-color: rgba(244, 196, 40, 0.354);
+        border-radius: 49% 67% 100% 100% / 86% 97% 38% 100%;
+    }
+    100%{
+
+        background-color: rgb(193, 153, 67);
+        border-radius: 10% 87% 100% 78% / 86% 76% 100% 100%;
+    }
+}
+
